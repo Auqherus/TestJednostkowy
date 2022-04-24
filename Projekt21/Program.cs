@@ -33,7 +33,7 @@ namespace Xyz
             return 0;
         }
 
-        public String DataUrodzenia(String pesel)
+        public String DataUrodzenia()
         {
             return null;
         }

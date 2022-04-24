@@ -37,5 +37,18 @@ namespace PeselUnitTest
             walidator.WczytajPesel(pesel);
             Assert.AreEqual(pesel1, pesel);
         }
+        [TestMethod]
+        public void TestMethod4()
+        {
+            int sprtest = walidator.SumaKontrolna();
+            Assert.AreEqual(0,0,"powinno wyjsc 0");
+        }
+
+        [TestMethod]
+        public void TestMethod5()
+        {
+            string sprtest = walidator.DataUrodzenia();
+            Assert.AreEqual(0, 0, "powinno wyjsc 0");
+        }
     }
 }
